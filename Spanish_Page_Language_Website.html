@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Contenido de la Semana and ejercicio de comprensi&oacute;n
+            </title>
+            <link rel="stylesheet" href="./Spanish_Page.css">
+        </head>
+        <body>
+            <strong>
+                <center>
+                    <h class="orange-text">
+                        Espa&ntilde;ol
+                    </h>
+                </center>
+            </strong>
+            <center>
+                <h1>
+                &iquest;Hablas m&aacute;s que lo normal? Date un desaf&iacute;o con estos:
+                </h1>
+            </center>
+            <center>
+                <h2>
+                Sigue estos enlaces para encontrar el contenido de la semana. Despu&eacute;s, contesta a las preguntas siguientes para probar tu comprensi&oacute;n.
+                </h2>
+            </center>
+            <center>
+                <h2 class="space-btwn-text">El tema de la semana es: el amor
+                </h2> 
+            </center>
+            <div class="de-la-semana-text">
+                <ol>
+                    <!-- remove <ol> or can make each item below an <li>  -->
+                    <div class="col1 space-btwn-text">
+                        <a href="https://www.nytimes.com/es/2017/05/31/la-monogamia-en-tiempos-de-internet/">Articulo de la semana</a>
+                    </div>
+                    <div class="space-btwn-text">
+                        <a href=" https://www.youtube.com/watch?v=1TcsS4e09yk">Video de la semana</a>
+                    </div>
+                    <div class="space-btwn-text">
+                        <a href="http://radioambulante.org/transcripcion/transcripcion-la-concursante-2">Radio de la semana</a>
+                    </div>
+                </ol>
+            </div>
+            <div>
+                <form id="form1">
+                    <fieldset>
+                        <div>
+                            <h3>
+                                &iquest;Seg&uacute;n el art&iacute;culo, "La Monogamia", &iquest;qu&eacute; es la problema con las aplicaciones de citas como Bumble?
+                            </h3>
+                            <input type="radio" name="variable" value="1" id="var_tantas personas" />
+                            Hay tantas personas cuando necessitamos escoger solo una
+                            <input type="radio" name="variable" value="0" id="var_fecha limite" />
+                            No hay una fecha limite
+                            <input type="radio" name="variable" value="0" id="var_nadie sabe" />
+                            Nadie sabe lo que quiere
+                            <input type="radio" name="variable" value="0" id="var_riesgo"/>
+                            Podr&iacute;a ser riesgoso
+                        </div>
+                        <div>
+                            <h3>
+                                &iquest;En la historia, "La Monogamia", &iquest;qui&eacute;n espera al personaje prinicipal "con los brazos cruzados?"
+                            </h3>
+                            <input type="radio" name="sub" value="" id="sub_novio"/>El novio
+                            <input type="radio" name="sub" value="0" id="sub_mama"/>Su mama
+                            <input type="radio" name="sub" value="1" id="sub_Bumble" />La aplicaci&oacute;n de citas, Bumble
+                            <input type="radio" name="sub" value="0" id="sub_nadie" />Nadie
+                        </div>
+                        <div>
+                            <h3>
+                                La canci&oacute;n de Monsieur Perine habla de una relaci&oacute;n que:
+                            </h3>
+                            <input type="radio" name="con" value="1" id="cat_terminada" />Ya esta terminada
+                            <input type="radio" name="con" value="0" id="cat_Empieza" />Empieza
+                            <input type="radio" name="con" value="0" id="cat_Nunca" />Nunca ha sido
+                            <input type="radio" name="con" value="0" id="cat_No existe" />No existe
+                        </div>
+                        <div>
+                            <h3>
+                                &iquest;Que describa m&aacute;s la relaci&oacute;n de la canci&oacute;n de Monsieur Perine?
+                            </h3>
+                                <input type="radio" name="ifstate" value="0" id="if_contenta" />Contenta
+                                <input type="radio" name="ifstate" value="0" id="if_romantica" />Romantica
+                                <input type="radio" name="ifstate" value="0" id="if_triste" />Triste
+                                <input type="radio" name="ifstate"  value="1" id="if_agridulce" />Agridulce
+                        </div>    
+                        <div>
+                            <h3>
+                                &iquest;Seg&uacute;n la historia de Radio Ambulante, &iquest;qu&eacute; es m&aacute;s probable matar al amor?
+                            </h3>
+                                <input type="radio" name="ifstate" value="0" id="if_verdad" />La verdad
+                                <input type="radio" name="ifstate" value="0" id="if_prostitucion" />La prostituci&oacute;n
+                                <input type="radio" name="ifstate" value="0" id="if_codicia" />La codicia
+                                <input type="radio" name="ifstate"  value="1" id="if_television" />La televisi&oacute;n
+                        </div>
+                        <h3>
+                            &iquest;Seg&uacute;n la historia de Radio Ambulante, &iquest;qu&eacute; quiere decir, "sacar la vuelta"?
+                        </h3>
+                            <input type="radio" name="ifstate" value="0" id="if_cheat" />To cheat on
+                            <input type="radio" name="ifstate" value="1" id="if_prostitute" />To prostitute
+                            <input type="radio" name="ifstate" value="0" id="if_turn around" />To turn around
+                            <input type="radio" name="ifstate"  value="0" id="if_go out" />To go out
+                        <hr>
+                        <button type="submit" i class="submit-quiz" value="Submit">Submit</button>
+                    </fieldset>
+                </form>
+                <hr>
+            <p>Your grade is: <span id="grade">__</span></p>
+            <p id="grade2"></p>             
+        </body>    
+    </html>
