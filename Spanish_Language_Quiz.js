@@ -1,5 +1,3 @@
-<script>
-
 const quizContainer = document.getElementById("quiz");
 const resultsContainer = document.getElementById("results");
 const submitButton = document.getElementById("submit");
@@ -91,4 +89,4 @@ function showResults(){
     resultsContainer.innerHTML = ` You got ${numCorrect} out of ${myQuestions.length}`;
 }
 
-</script>
+
