@@ -1,0 +1,45 @@
+<html>
+
+    <div>
+  
+        <h2 id="heading">Spanish Language Quiz</h2>
+        
+        <!- This div lists the articles that students should look at in order to answer the quiz questions. No javascript link -!>
+       <div>
+              <p id="instructions">&iquest;Hablas m&aacute;s que lo normal? Date un desaf&iacute;o con estos:</p>
+         
+                <ol>
+                  <div>
+                    <a href="https://www.nytimes.com/es/2017/05/31/la-monogamia-en-tiempos-de-internet/">Articulo de la semana</a>                
+                      </div>
+                  <div>
+                    <a href=" https://www.youtube.com/watch?v=1TcsS4e09yk">Video de la semana</a>
+                      </div>
+                  <div>
+                    <a href="http://radioambulante.org/transcripcion/transcripcion-la-concursante-2">Radio de la semana</a>
+                      </div>
+                  </ol>
+         
+        </div>
+      
+        
+      <!- This div contains the first quiz question and a div where the answers should be displayed using javascript-!>
+       <div>
+          <p>1. Seg&uacute;n el art&iacute;culo, La Monogamia, &iquest;qu&eacute<span id="myText"></span>; es la problema con las aplicaciones de citas como Bumble?</p>
+         <!- This div is where the answers from the function "buildAnswers()" should display when the button "Show Answer Choices" is clicked -!>
+              <div id="valuesHere">
+             
+                  </div>
+              <button onclick = "buildAnswers()"> Show Answer Choices 
+                  </button>
+       </div>
+      
+       <!- This div will contain a function that compares the user input to the acutal answer and calculate how many questions the user got right or wrong. -!>
+      <div>
+        <button id="button" onclick => Submit Answer
+          </button>
+
+          <script type = "text/javascript" src = "./JSUpdate.js"></script>
+          
+      </div>
+      
