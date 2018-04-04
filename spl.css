@@ -1,0 +1,62 @@
+body{
+    background-color: #FEF5E7;
+}
+
+.orange-text{
+    color:#F39C12
+}
+
+h{
+    font-size:56px;
+    font-family:Trebuchet MS;
+}
+
+h1{
+    font-size:30px;
+    font-family:Trebuchet MS;
+}
+
+h2{
+    font-size:22px;
+    font-family:Trebuchet MS;
+}
+
+.space-btwn-text{
+    margin-top:50px;
+    margin-bottom:50px
+}
+
+.de-la-semana-text{
+    font-family:Trebuchet MS;
+    text-align:center;
+    font-size:26px;
+    color: orange;
+}
+
+form{ 
+    font-size:16px;
+    font-family:Trebuchet MS;
+}
+
+h3{
+    font-size:22px;
+    font-family:Trebuchet MS;
+}
+
+button{
+    font-size: 16px;
+    font-family:Trebuchet MS;
+}
+
+.submit-quiz
+    {
+    font-family: 'Nova Mono', monospace;
+    font-size: 18px;
+    background-color: #636c72; 
+    color: #0275d8;
+    }
+
+p{
+    font-size:22px;
+    font-family:Trebuchet MS;
+}
